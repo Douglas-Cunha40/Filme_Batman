@@ -30,4 +30,12 @@ body {
 
     width: 100%;
     height: auto;
+
+    @media (max-width: 360px) {
+    background-position: center;
+    }
+
+    @media (min-width: 361px) and (max-width: 768px) {
+        background-position: center;
+    }
 }
