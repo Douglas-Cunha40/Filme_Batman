@@ -19,7 +19,7 @@
                     <a href="#abouts">sobre</a>
                 </li>
                 <li class="header__links__item">
-                    <a href="#">elenco</a>
+                    <a href="#cast">elenco</a>
                 </li>
                 <li class="header__links__item">
                     <a href="#">cenas</a>
@@ -63,20 +63,85 @@
             </div>
         </section>
 
-        <section class="cast">
+        <section class="cast" id="cast">
             <nav class="cast__tabs">
-                <button data-tab-button="" class="shows__tabs__button shows__tabs__button--is-active">
+                <button data-tab-button="em_destaques" class="cast__tabs__button cast__tabs__button--is-active">
                     Destaques
                 </button>
-                <button data-tab-button="" class="shows__tabs__button">
+                <button data-tab-button="em_principais" class="cast__tabs__button">
                     Principais
                 </button>
-                <button data-tab-button="" class="shows__tabs__button">
+                <button data-tab-button="em_convidados" class="cast__tabs__button">
                     Convidados
                 </button>
             </nav>
+
+            <ul data-tab-id="em_destaques" class="cast__list cast__list--is-active">
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-01.jpeg" alt="Ator-01">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-02.jpeg" alt="Ator-02">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-03.jpeg" alt="Ator-03">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-04.jpeg" alt="Ator-04">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-05.jpeg" alt="Ator-05">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-06.jpeg" alt="Ator-06">
+                </li>
+            </ul>
+
+            <ul data-tab-id="em_principais" class="cast__list cast__list--is-active">
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-07.jpeg" alt="Ator-07">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-08.jpeg" alt="Ator-08">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-09.jpeg" alt="Ator-09">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-10.jpeg" alt="Ator-10">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-11.jpeg" alt="Ator-11">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-12.jpeg" alt="Ator-12">
+                </li>
+            </ul>
+
+            <ul data-tab-id="em_convidados" class="cast__list cast__list--is-active">
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-13.jpeg" alt="Ator-13">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-14.jpeg" alt="Ator-14">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-15.jpeg" alt="Ator-15">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-16.jpeg" alt="Ator-16">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-17.jpeg" alt="Ator-17">
+                </li>
+                <li class="cast__list__item">
+                    <img src="./dist/elenco/at-18.jpeg" alt="Ator-18">
+                </li>
+            </ul>
         </section>
     </main>
+
+    <script src="./dist/js/script.js"></script>
 </body>
 
 </html>
