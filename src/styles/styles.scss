@@ -1,5 +1,30 @@
-$bgColor: rgb(24, 177, 243);
+@use 'variaveis';
+@use 'header';
+@use 'abouts';
 
-body{
-    background-color: $bgColor;
+
+@font-face {
+    font-family: Batman-one;
+    src: url(../../assets/fonts/batmfa__.ttf);
+}
+
+@font-face {
+    font-family: Batman-two;
+    src: url(../../assets/fonts/batmfo__.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../dist/images/gradient.png"), url(../../dist/images/bg_fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: auto;
 }
