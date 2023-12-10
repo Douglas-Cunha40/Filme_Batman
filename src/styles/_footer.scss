@@ -1,0 +1,60 @@
+@use 'variaveis';
+
+.footer {
+    background-color: variaveis.$corDoFooter;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            color: variaveis.$corDoHover;
+            text-shadow: 1px 1px 3px variaveis.$corDosTextos;
+
+            padding: 10px;
+
+            text-align: center;
+
+            font-family: Batman-one, sans-serif;
+            font-size: 3.5rem;
+        }
+
+        img {
+            width: 150px;
+            margin-top: -40px;
+        }
+
+        span {
+            color: variaveis.$corDosTextos;
+
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        p {
+            color: variaveis.$corDosTextos;
+
+            font-family: sans-serif;
+            font-weight: bold;
+            font-size: 0.8rem;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        a {
+            text-decoration: none;
+            color: variaveis.$corDosTextos;
+            font-size: 0.7rem;
+            font-style: italic;
+        }
+    }
+}
